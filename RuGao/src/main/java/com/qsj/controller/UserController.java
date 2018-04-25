@@ -29,7 +29,7 @@ public class UserController extends BaseController{
 	
 	/**
 	 * 上传图片
-	 * @return
+	 * @return aaaa
 	 * @throws IOException 
 	 * @throws IllegalStateException 
 	 */
