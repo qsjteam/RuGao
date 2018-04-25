@@ -6,7 +6,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>商城购物车</title>
+    <title>购物车</title>
     <link rel="stylesheet" href="../css/header.css"/>
     <link rel="stylesheet" href="../css/footer.css"/>
     <link rel="stylesheet" href="../css/cart.css"/>
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <div class="pices">
-                        <p class="pices_des">达内专享价</p>
+                        <p class="pices_des">专享价</p>
                         <p class="pices_information"><b>￥</b><span>${cartVo.price }  <input type="hidden" name="" value=""></span></p>
                     </div>
                     <div class="num">
@@ -170,7 +170,7 @@
     <div class="icon3 lf">
         <img src="../images/footer/icon3.png" alt=""/>
 
-        <h3>学员特供</h3>
+        <h3>特殊产品</h3>
     </div>
     <div class="icon4 lf">
         <img src="../images/footer/icon4.png" alt=""/>
@@ -182,7 +182,6 @@
 <div class="foot_bj">
     <div id="foot">
         <div class="lf">
-             <p class="footer1"><img src="../images/footer/logo.png" alt="" class=" footLogo"/></p>
              <p class="footer2"><img src="../images/footer/footerFont.png" alt=""/></p>
         </div>
         <div class="foot_left lf">
@@ -199,7 +198,6 @@
             </ul>
             <ul>
                 <li><a href="#"><h3>关于我们</h3></a></li>
-                <li><a href="#">关于达内</a></li>
                 <li><a href="#">联系我们</a></li>
                 <li>
                     <img src="../images/footer/wechat.png" alt=""/>
@@ -208,7 +206,6 @@
             </ul>
         </div>
         <div class="service">
-            <p>学子商城客户端</p>
             <img src="../images/footer/ios.png" class="lf">
             <img src="../images/footer/android.png" alt="" class="lf"/>
         </div>
@@ -217,7 +214,7 @@
         </div>
 		<!-- 页面底部-备案号 #footer -->
         <div class="record">
-            &copy;2017 达内集团有限公司 版权所有 京ICP证xxxxxxxxxxx
+            &copy;2018  版权所有 川ICP证xxxxxxxxxxx
         </div>
     </div>
 </div>

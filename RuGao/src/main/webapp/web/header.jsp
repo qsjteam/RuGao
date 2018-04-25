@@ -3,7 +3,6 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <header id="top" class="fixed_nav">
     <div id="logo" class="lf">
-        <img class="animated jello" src="${pageContext.request.contextPath}/images/header/logo.png" alt="logo"/>
     </div>
     <div id="top_input" class="lf">
         <input 

@@ -5,7 +5,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>我的订单 - 达内学子商城</title>
+    <title>我的订单</title>
     <link href="../css/orders.css" rel="stylesheet"/>
     <link href="../css/header.css" rel="stylesheet"/>
     <link href="../css/footer.css" rel="stylesheet"/>
@@ -146,7 +146,7 @@
     <div class="icon3 lf">
         <img src="../images/footer/icon3.png" alt=""/>
 
-        <h3>学员特供</h3>
+        <h3>特殊产品</h3>
     </div>
     <div class="icon4 lf">
         <img src="../images/footer/icon4.png" alt=""/>
@@ -158,7 +158,6 @@
 <div class="foot_bj">
     <div id="foot">
         <div class="lf">
-             <p class="footer1"><img src="../images/footer/logo.png" alt="" class=" footLogo"/></p>
              <p class="footer2"><img src="../images/footer/footerFont.png" alt=""/></p>
         </div>
         <div class="foot_left lf">
@@ -175,7 +174,6 @@
             </ul>
             <ul>
                 <li><a href="#"><h3>关于我们</h3></a></li>
-                <li><a href="#">关于达内</a></li>
                 <li><a href="#">联系我们</a></li>
                 <li>
                     <img src="../images/footer/wechat.png" alt=""/>
@@ -184,7 +182,6 @@
             </ul>
         </div>
         <div class="service">
-            <p>学子商城客户端</p>
             <img src="../images/footer/ios.png" class="lf">
             <img src="../images/footer/android.png" alt="" class="lf"/>
         </div>
@@ -193,7 +190,7 @@
         </div>
 		<!-- 页面底部-备案号 #footer -->
         <div class="record">
-            &copy;2017 达内集团有限公司 版权所有 京ICP证xxxxxxxxxxx
+            &copy;2018  版权所有 川ICP证xxxxxxxxxxx
         </div>
     </div>
 </div>

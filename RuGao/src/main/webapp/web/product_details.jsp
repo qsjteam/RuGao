@@ -6,7 +6,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>学子商城详情页</title>
+    <title>详情页</title>
     <link rel="stylesheet" href="../css/header.css"/>
     <link href="../css/pro_details.css" rel="Stylesheet"/>
     <link href="../css/animate.css" rel="Stylesheet"/>
@@ -56,7 +56,7 @@
         <h3>${goods.title }</h3>
         <!-- 价格部分-->
         <div class="price">
-            <div id="pro_price"><b>学员售价：</b><span>￥${goods.price }</span></div>
+            <div id="pro_price"><b>售价：</b><span>￥${goods.price }</span></div>
             <div class="promise">
                 <b>服务承诺：</b>
                 <span>*退货补运费</span>
@@ -189,7 +189,7 @@
                     </p>
 
                     <p class="content">
-                        达内学子商城向您保证所售商品均为正品行货，达内自营商品开具机打发票或电子发票。
+                        商城向您保证所售商品均为正品行货，自营商品开具机打发票或电子发票。
                     </p>
 
                     <p class="paper">
@@ -198,7 +198,7 @@
                     </p>
 
                     <p class="content">
-                        凭质保证书及达内商城发票，可享受全国联保服务，与您亲临商场选购的商品享受相同的质量保证。达内商城还为您提供具有竞争力的商品价格和运费政策，请您放心购买！
+                        凭质保证书及商城发票，可享受全国联保服务，与您亲临商场选购的商品享受相同的质量保证。商城还为您提供具有竞争力的商品价格和运费政策，请您放心购买！
                         注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
                     </p>
                 </div>
@@ -210,7 +210,7 @@
                 </p>
 
                 <p class="content">笔记本 x1 适配器 x1 电源线 x1 电池 x1 说明书（电子版）x1 备注：笔记本电脑的背面只会标注此电脑的系列，例如： XPS 13-9360 ，
-                    如果您需要核实此电脑的具体配置型号是否与达内页面相符，可电话咨询达内厂商：800-858-2969</p>
+                    如果您需要核实此电脑的具体配置型号是否与页面相符，可电话咨询厂商：800-858-2969</p>
             </div>
         </div>
     </div>
@@ -239,7 +239,7 @@
     <div class="icon3 lf">
         <img src="../images/footer/icon3.png" alt=""/>
 
-        <h3>学员特供</h3>
+        <h3>特殊产品</h3>
     </div>
     <div class="icon4 lf">
         <img src="../images/footer/icon4.png" alt=""/>
@@ -251,7 +251,6 @@
 <div class="foot_bj">
     <div id="foot">
         <div class="lf">
-             <p class="footer1"><img src="../images/footer/logo.png" alt="" class=" footLogo"/></p>
              <p class="footer2"><img src="../images/footer/footerFont.png" alt=""/></p>
         </div>
         <div class="foot_left lf">
@@ -268,7 +267,6 @@
             </ul>
             <ul>
                 <li><a href="#"><h3>关于我们</h3></a></li>
-                <li><a href="#">关于达内</a></li>
                 <li><a href="#">联系我们</a></li>
                 <li>
                     <img src="../images/footer/wechat.png" alt=""/>
@@ -277,7 +275,6 @@
             </ul>
         </div>
         <div class="service">
-            <p>学子商城客户端</p>
             <img src="../images/footer/ios.png" class="lf">
             <img src="../images/footer/android.png" alt="" class="lf"/>
         </div>
@@ -286,7 +283,7 @@
         </div>
 		<!-- 页面底部-备案号 #footer -->
         <div class="record">
-            &copy;2017 达内集团有限公司 版权所有 京ICP证xxxxxxxxxxx
+            &copy;2018 版权所有 川ICP证xxxxxxxxxxx
         </div>
     </div>
 </div>
