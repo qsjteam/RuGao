@@ -15,10 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.qsj.pojo.ResponseResult;
 import com.qsj.pojo.User;
 import com.qsj.service.IUserService;
-import com.qsj.service.ex.PasswordNotMatchException;
 import com.qsj.service.ex.ServiceException;
-import com.qsj.service.ex.UserNotFoundException;
-import com.qsj.service.ex.UsernameAlreadyExistException;
 
 @Controller
 @RequestMapping("/user")
@@ -163,11 +160,7 @@ public class UserController extends BaseController{
 			rr = new ResponseResult<Void>
 			(1,"登录成功");
 		}catch(ServiceException e){
-			rr = new ResponseResult<Void>
-			(0,e.getMessage());
-		}catch(ServiceException e){
-			rr = new ResponseResult<Void>
-			(-1,e.getMessage());
+			rr = new ResponseResult<Void>(0,e.getMessage());
 		}
 		return rr;
 	}

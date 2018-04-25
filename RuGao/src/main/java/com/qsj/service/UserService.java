@@ -2,16 +2,13 @@ package com.qsj.service;
 
 import javax.annotation.Resource;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import org.springframework.util.DigestUtils;
 
 import com.qsj.dao.UserMapper;
 import com.qsj.pojo.User;
-import com.qsj.service.ex.PasswordNotMatchException;
 import com.qsj.service.ex.ServiceException;
-import com.qsj.service.ex.UserNotFoundException;
-import com.qsj.service.ex.UsernameAlreadyExistException;
 @Service
 public class UserService implements IUserService {
 	@Resource

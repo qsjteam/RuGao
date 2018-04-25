@@ -4,9 +4,11 @@ import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import cn.tedu.store.bean.Area;
-import cn.tedu.store.bean.City;
-import cn.tedu.store.bean.Province;
+import com.qsj.pojo.Area;
+import com.qsj.pojo.City;
+import com.qsj.pojo.Province;
+
+
 @Transactional
 public interface IDictService {
 	List<Province> getProvinces();
